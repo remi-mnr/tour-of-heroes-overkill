@@ -1,0 +1,21 @@
+<div class="heroes-container">
+    <h1>Heroes</h1>
+
+    <div *ngIf="loadingState$ | async as loadingState">
+        <mat-spinner 
+        *ngIf="loadingState === loadingStates.Loading"
+        color="accent"
+        diameter="50"></mat-spinner>
+        <p class="mat-subheading-1" 
+        *ngIf="loadingState === loadingStates.Error">- Failed to load Heroes -</p>
+    </div>
+    <div class="card-container">
+        <app-hero-item
+        *ngFor="let hero of heroes$ | async"
+        [hero]="hero"></app-hero-item>
+    </div>
+</div>
+
+<button mat-fab color="accent" class="fab-button" routerLink="/hero/new">
+    <mat-icon>add</mat-icon>
+</button>

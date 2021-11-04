@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroes-container { padding: 30px 25px 0 25px; }
+
+mat-spinner { margin: auto }
+
+.fab-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}

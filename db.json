@@ -1,0 +1,28 @@
+{
+  "heroes": [
+    {
+      "id": "1",
+      "name": "All might",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim urna eu ipsum eleifend euismod. Duis sit amet feugiat nulla. Nullam vitae turpis sodales, commodo risus sit amet, volutpat odio. Vestibulum in risus a ligula fringilla vestibulum id ac ante. Integer euismod condimentum mollis. Donec consectetur vulputate tincidunt. In hac habitasse platea dictumst.",
+      "role": "Fighter"
+    },
+    {
+      "id": "2",
+      "name": "Batman",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim urna eu ipsum eleifend euismod. Duis sit amet feugiat nulla. Nullam vitae turpis sodales, commodo risus sit amet, volutpat odio. Vestibulum in risus a ligula fringilla vestibulum id ac ante. Integer euismod condimentum mollis. Donec consectetur vulputate tincidunt. In hac habitasse platea dictumst.",
+      "role": "Fighter"
+    },
+    {
+      "id": "3",
+      "name": "Spider-man",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim urna eu ipsum eleifend euismod. Duis sit amet feugiat nulla.",
+      "role": "Support"
+    },
+    {
+      "id": "2932",
+      "name": "Raz",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim urna eu ipsum eleifend euismod. Duis sit amet feugiat nulla. Nullam vitae turpis sodales, commodo risus sit amet, volutpat odio. Vestibulum in risus a ligula fringilla vestibulum id ac ante. Integer euismod condimentum mollis. Donec consectetur vulputate tincidunt. In hac habitasse platea dictumst.",
+      "role": "Fighter"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<div class="hero-conatainer">
+    <button 
+    mat-flat-button 
+    color="primary"
+    class="back-button"
+    routerLink="/heroes">Back</button>
+    <mat-card>
+        <h1>Hero details</h1>
+        <form [formGroup]="myForm" (ngSubmit)="addHero()">
+            <mat-form-field appearance="fill" class="fullWidth">
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="Superman" formControlName="name">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="fill" class="fullWidth">
+                <mat-label>Description</mat-label>
+                <textarea 
+                matInput 
+                placeholder="Epic backstory."
+                formControlName="description"
+                rows="5"></textarea>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Role</mat-label>
+                <mat-select formControlName="role">
+                  <mat-option *ngFor="let role of roleList" [value]="role">
+                    {{ role }}
+                  </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <br>
+            <button 
+            mat-flat-button 
+            color="accent"
+            type="submit"
+            [disabled]="!this.myForm.valid">Add</button>
+        </form>
+    </mat-card>
+</div>
